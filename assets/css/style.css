@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 100px 35px;
+    background-color: var(--secondary-color);
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header nav ul li a:hover {
+    background: black;
+    color: var(--primary-color);
+    border-radius: 50%;
+    text-shadow: none;
+}
+
+.About p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align:right
+}
+
+.section-title {
+    font-size: 30px;
+    border-bottom: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 5px;
+    padding-right: 1%;
+    text-align: right;
+    margin: 20px auto 25px auto;
+    width: 77%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.run-buddy li {
+    width: 10%;
+    height: 10%;
+    margin:30px;
+    padding: 10px auto 10px auto;
+}
