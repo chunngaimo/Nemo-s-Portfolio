@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nemo's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet"  type="text/css" href="./assets/css/style.css">
+            <!--using-FontAwesome-->
+            <script src="https://kit.fontawesome.com/c8e4d183c2.js" 
+            crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <!--Navi-->
-        <header>
-            <h1>
-                <a href="/">
-                NEMO
-                </a>
-            </h1>
+        <section>
+        <!--navigation-->
             <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact-Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
+            <!--logo-->
+            <a href="/" class="logo">nemo</a>
+            <!--menu-->
+            <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+            </ul>
+            <!--bars-->
+            <div class="toggle"></div>
             </nav>
-        </header>
+        <!--text-->
+            <div class="text-container">
+                <p>Hello,</p>
+                <p>I'm nemo</p>
+                <p>I am a Full-Stack <br> Web Developer</p>
+                <button class="view-my-work-btn">View My Work</button>
+            </div>
+        <!--portrait-->
+            <img src="assets/images/portrait.PNG" class="portrait" alt="photo of Nemo">
 
-        <!--About-->
-        <section id="about-me" class="About">
-            <div class="flex-row">
-                <h2 class="section-title primary-border">
-                    About Me
-                </h2>
-            </div>
-            <div class="flex-row">
-                <p>
-                    I'm baby before they sold out intelligentsia 3 wolf moon master cleanse, 
-                    brunch man bun deep v iceland cold-pressed irony unicorn craft beer pitchfork 
-                    distillery tbh. Etsy thundercats enamel pin master cleanse messenger bag man bun 
-                    offal. Art party synth blog listicle echo park meh keytar messenger bag plaid prism
-                     chillwave etsy. Raw denim selfies PBR&B whatever, williamsburg poutine listicle jean
-                      shorts meh fixie iceland plaid green juice. Tilde small batch forage ramps, kitsch
-                       man bun echo park austin man.
-                </p>
-            </div>
         </section>
 
-        <!--Portfolio-->
-        <section id="portfolio" class="Portfolio">
-            <h2 class="section-title primary-border">
-                Portfolio
-            </h2>
-            <div class="run-buddy">
-                <ul>
-                    <li><img src="assets/images/run-buddy.png" alt="" />
-                    </li>
-                    <li><img src="assets/images/run-buddy.png" alt="" />
-                    </li>
-                    <li><img src="assets/images/run-buddy.png" alt="" />
-                    </li>
-                </ul>
+        <!--about-section-->
+        <div id="about-me" class="about-container">
+        <!--img-->
+            <img src="assets/images/portrait2.png" alt="photo of Nemo">
+        <!--about-text-->
+            <div class="about-text">
+            <p>About me</p>
+            <p>Full-Stack Web Developer</p>
+            <p>Hello, My name is nemo. I am a Full-Stack Web Developer. 
+            if you have any project or if you want me to make a website 
+            for your business please feel free to contact me. 
+            I will make sure to respond as soon as possible. 
+            I will put in 100% effort towards the work until you are 100% satisfied 
+            with the result.</p>
+            <!--button--> <!--maybe take out this section-->
+            <button>View My Work</button>
             </div>
-            
-        </section>
-
-
-
-<!--footer-->
+              
+        </div>
+        <!--apps-->
+        <div class="apps">
+                <!--text-->
+        <div class="apps-text">
+            <p>Applications</p>
+        </div>
+            <!--box-->
+        <div class="box-container">
+        <!--1-->
+            <div class="box-1">
+            <span>1</span>
+            <p class="heading">Web Design & Development</p>
+            <p class="details">Run-Buddy</p>
+            <button>Read More</button>
+            </div>
+        <!--2-->
+            <div class="box-2">
+            <span>2</span>
+            <p class="heading">S-E-O</p>
+            <p class="details">search engine optimization</p>
+            <button>Read More</button>
+            </div>
+        <!--3-->
+            <div class="box-3">
+            <span>3</span>
+            <p class="heading">JavaScript</p>
+            <p class="details">coming soon</p>
+            <button>Read More</button>
+            </div>
+        </div>
+        </div>
+    <!--contact-->
+        <div id="contact-me"class="contact-me">
+        <p>If You Have Any Project In Your Mind</p>
+        <button>Contact Me</button>
+         </div>
+    <!--footer-->
         <footer>
-            
+        <p>nemo</p>
+        <p>I will put in 100% effort towards the work until you are 100% satisfied 
+        with the result.</p>
+            <!--social-->
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+        <!--copyright-->
+            <p class="copyright">Copyright by nemo</p>
         </footer>
-
-
-
+        <!--attached social bar-->
+        <div class="a-social-b">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <!--JQuery-->
+    <script type="text/javascript" src="/assets/js/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            }) 
+        })
+        </script>
+    
     </body>
-
-
-
-
-
-
-
-
-
-
-</html>
+    </html>
