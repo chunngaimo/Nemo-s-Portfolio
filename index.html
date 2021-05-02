@@ -17,23 +17,24 @@
         <!--navigation-->
             <nav>
             <!--logo-->
-            <a href="/" class="logo">nemo</a>
+            <a href="#" class="logo">nemo</a>
             <!--menu-->
             <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#about-me">About</a></li>
+            <li><a href="#application">Applications</a></li>
             <li><a href="#contact-me">Contact</a></li>
             <li><a href="#">Resume</a></li>
             </ul>
             <!--bars-->
-            <div class="toggle"></div>
+            <!-- <div class="toggle"></div> -->
             </nav>
         <!--text-->
             <div class="text-container">
                 <p>Hello,</p>
                 <p>I'm nemo</p>
                 <p>I am a Full-Stack <br> Web Developer</p>
-                <button class="view-my-work-btn">View My Work</button>
+                <a href="#application"><button class="view-my-work-btn">View My Work</button></a>
             </div>
         <!--portrait-->
             <img src="assets/images/portrait.PNG" class="portrait" alt="photo of Nemo">
@@ -55,12 +56,12 @@
             I will put in 100% effort towards the work until you are 100% satisfied 
             with the result.</p>
             <!--button--> <!--maybe take out this section-->
-            <button>View My Work</button>
+            <a href="#application"><button>View My Work</button></a>
             </div>
               
         </div>
         <!--apps-->
-        <div class="apps">
+        <div id="application" class="apps">
                 <!--text-->
         <div class="apps-text">
             <p>Applications</p>
@@ -70,16 +71,16 @@
         <!--1-->
             <div class="box-1">
             <span>1</span>
-            <p class="heading">Web Design & Development</p>
+            <p class="heading">Web Design</p>
             <p class="details">Run-Buddy</p>
-            <button>Read More</button>
+            <a href="https://chunngaimo.github.io/run-buddy/"><button>Read More</button></a>
             </div>
         <!--2-->
             <div class="box-2">
             <span>2</span>
             <p class="heading">S-E-O</p>
             <p class="details">search engine optimization</p>
-            <button>Read More</button>
+            <a href="https://chunngaimo.github.io/Code-Refactor-Challenge-Assignment-01/"><button>Read More</button></a>
             </div>
         <!--3-->
             <div class="box-3">
@@ -93,7 +94,7 @@
     <!--contact-->
         <div id="contact-me"class="contact-me">
         <p>If You Have Any Project In Your Mind</p>
-        <button>Contact Me</button>
+        <a href="mailto://wjy16888888@gmail.com"><button>Contact Me</button></a>
          </div>
     <!--footer-->
         <footer>
@@ -116,7 +117,7 @@
             <a href="#"><i class="fab fa-github"></i></a>
         </div>
         <!--JQuery-->
-    <script src="/assets/js/JQuery.js"></script>
+    <script src="../Professional Portfolio/assets/js/JQuery.js"></script>
         <script type="text/javascript">
         $(document).ready(function(){
             $('.toggle').click(function(){
